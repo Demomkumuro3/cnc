@@ -273,3 +273,334 @@
 2025-08-28 18:10:13,496 - INFO - Shutting down C2 Server...
 2025-08-28 18:10:22,760 - INFO - 192.168.1.5 - - [28/Aug/2025 18:10:22] "GET /socket.io/?EIO=4&transport=websocket&sid=hUZq4oh02WRLwtptAABE HTTP/1.1" 200 -
 2025-08-28 18:10:48,802 - INFO - Shutting down C2 Server...
+2025-08-28 18:19:31,142 - INFO - Database initialized successfully
+2025-08-28 18:19:31,148 - INFO - Auto-recovery system started
+2025-08-28 18:19:31,149 - INFO - Auto-scaling system started
+2025-08-28 18:19:31,149 - INFO - C2 Server (Auto System) starting...
+2025-08-28 18:19:31,150 - INFO - Listening on 0.0.0.0:5000
+2025-08-28 18:19:31,150 - INFO - Auto-recovery: ENABLED
+2025-08-28 18:19:31,150 - INFO - Auto-scaling: ENABLED
+2025-08-28 18:19:31,150 - INFO - Auto-monitoring: ENABLED
+2025-08-28 18:19:31,164 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.5:5000
+2025-08-28 18:19:31,164 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-28 18:19:32,153 - INFO - High load detected - CPU: 13.2%, Memory: 80.6%
+2025-08-28 18:19:32,153 - INFO - Scaling up system resources...
+2025-08-28 18:21:34,165 - INFO - High load detected - CPU: 21.5%, Memory: 80.3%
+2025-08-28 18:21:34,166 - INFO - Scaling up system resources...
+2025-08-28 18:22:35,172 - INFO - High load detected - CPU: 20.4%, Memory: 81.7%
+2025-08-28 18:22:35,173 - INFO - Scaling up system resources...
+2025-08-28 18:24:54,962 - INFO - 127.0.0.1 - - [28/Aug/2025 18:24:54] "GET / HTTP/1.1" 200 -
+2025-08-28 18:24:55,177 - INFO - 127.0.0.1 - - [28/Aug/2025 18:24:55] "GET /socket.io/?EIO=4&transport=polling&t=PZmR705 HTTP/1.1" 200 -
+2025-08-28 18:24:55,184 - INFO - 127.0.0.1 - - [28/Aug/2025 18:24:55] "POST /socket.io/?EIO=4&transport=polling&t=PZmR70C&sid=4VvNYOymvZcm2ZbFAAAA HTTP/1.1" 200 -
+2025-08-28 18:24:55,189 - INFO - 127.0.0.1 - - [28/Aug/2025 18:24:55] "GET /socket.io/?EIO=4&transport=polling&t=PZmR70E&sid=4VvNYOymvZcm2ZbFAAAA HTTP/1.1" 200 -
+2025-08-28 18:24:55,198 - INFO - 127.0.0.1 - - [28/Aug/2025 18:24:55] "GET /socket.io/?EIO=4&transport=polling&t=PZmR70P&sid=4VvNYOymvZcm2ZbFAAAA HTTP/1.1" 200 -
+2025-08-28 18:25:25,756 - INFO - 127.0.0.1 - - [28/Aug/2025 18:25:25] "GET /socket.io/?EIO=4&transport=websocket&sid=4VvNYOymvZcm2ZbFAAAA HTTP/1.1" 200 -
+2025-08-28 18:25:26,783 - INFO - 127.0.0.1 - - [28/Aug/2025 18:25:26] "GET / HTTP/1.1" 200 -
+2025-08-28 18:25:26,929 - INFO - 127.0.0.1 - - [28/Aug/2025 18:25:26] "GET /socket.io/?EIO=4&transport=polling&t=PZmREmB HTTP/1.1" 200 -
+2025-08-28 18:25:26,946 - INFO - 127.0.0.1 - - [28/Aug/2025 18:25:26] "POST /socket.io/?EIO=4&transport=polling&t=PZmREmR&sid=ir7zCCc0tDv9VtmkAAAC HTTP/1.1" 200 -
+2025-08-28 18:25:26,954 - INFO - 127.0.0.1 - - [28/Aug/2025 18:25:26] "GET /socket.io/?EIO=4&transport=polling&t=PZmREmT&sid=ir7zCCc0tDv9VtmkAAAC HTTP/1.1" 200 -
+2025-08-28 18:25:26,973 - INFO - 127.0.0.1 - - [28/Aug/2025 18:25:26] "GET /socket.io/?EIO=4&transport=polling&t=PZmREmo&sid=ir7zCCc0tDv9VtmkAAAC HTTP/1.1" 200 -
+2025-08-28 18:25:57,751 - INFO - 127.0.0.1 - - [28/Aug/2025 18:25:57] "GET /socket.io/?EIO=4&transport=websocket&sid=ir7zCCc0tDv9VtmkAAAC HTTP/1.1" 200 -
+2025-08-28 18:25:58,778 - INFO - 127.0.0.1 - - [28/Aug/2025 18:25:58] "GET / HTTP/1.1" 200 -
+2025-08-28 18:25:58,891 - INFO - 127.0.0.1 - - [28/Aug/2025 18:25:58] "GET /socket.io/?EIO=4&transport=polling&t=PZmRMZZ HTTP/1.1" 200 -
+2025-08-28 18:25:58,938 - INFO - 127.0.0.1 - - [28/Aug/2025 18:25:58] "POST /socket.io/?EIO=4&transport=polling&t=PZmRMaG&sid=6Mk7ZnqcXjVTnonbAAAE HTTP/1.1" 200 -
+2025-08-28 18:25:58,939 - INFO - 127.0.0.1 - - [28/Aug/2025 18:25:58] "GET /socket.io/?EIO=4&transport=polling&t=PZmRMaH&sid=6Mk7ZnqcXjVTnonbAAAE HTTP/1.1" 200 -
+2025-08-28 18:25:58,957 - INFO - 127.0.0.1 - - [28/Aug/2025 18:25:58] "GET /socket.io/?EIO=4&transport=polling&t=PZmRMad&sid=6Mk7ZnqcXjVTnonbAAAE HTTP/1.1" 200 -
+2025-08-28 18:26:29,761 - INFO - 127.0.0.1 - - [28/Aug/2025 18:26:29] "GET /socket.io/?EIO=4&transport=websocket&sid=6Mk7ZnqcXjVTnonbAAAE HTTP/1.1" 200 -
+2025-08-28 18:26:30,786 - INFO - 127.0.0.1 - - [28/Aug/2025 18:26:30] "GET / HTTP/1.1" 200 -
+2025-08-28 18:26:30,920 - INFO - 127.0.0.1 - - [28/Aug/2025 18:26:30] "GET /socket.io/?EIO=4&transport=polling&t=PZmRUO5 HTTP/1.1" 200 -
+2025-08-28 18:26:30,933 - INFO - 127.0.0.1 - - [28/Aug/2025 18:26:30] "POST /socket.io/?EIO=4&transport=polling&t=PZmRUOF&sid=BSL3Xxs3QOyf7eZoAAAG HTTP/1.1" 200 -
+2025-08-28 18:26:30,936 - INFO - 127.0.0.1 - - [28/Aug/2025 18:26:30] "GET /socket.io/?EIO=4&transport=polling&t=PZmRUOI&sid=BSL3Xxs3QOyf7eZoAAAG HTTP/1.1" 200 -
+2025-08-28 18:26:30,957 - INFO - 127.0.0.1 - - [28/Aug/2025 18:26:30] "GET /socket.io/?EIO=4&transport=polling&t=PZmRUOb&sid=BSL3Xxs3QOyf7eZoAAAG HTTP/1.1" 200 -
+2025-08-28 18:27:01,764 - INFO - 127.0.0.1 - - [28/Aug/2025 18:27:01] "GET /socket.io/?EIO=4&transport=websocket&sid=BSL3Xxs3QOyf7eZoAAAG HTTP/1.1" 200 -
+2025-08-28 18:27:02,791 - INFO - 127.0.0.1 - - [28/Aug/2025 18:27:02] "GET / HTTP/1.1" 200 -
+2025-08-28 18:27:02,910 - INFO - 127.0.0.1 - - [28/Aug/2025 18:27:02] "GET /socket.io/?EIO=4&transport=polling&t=PZmRcBw HTTP/1.1" 200 -
+2025-08-28 18:27:02,920 - INFO - 127.0.0.1 - - [28/Aug/2025 18:27:02] "POST /socket.io/?EIO=4&transport=polling&t=PZmRcC4&sid=CO9GdVuOObPE3ll9AAAI HTTP/1.1" 200 -
+2025-08-28 18:27:02,929 - INFO - 127.0.0.1 - - [28/Aug/2025 18:27:02] "GET /socket.io/?EIO=4&transport=polling&t=PZmRcC5&sid=CO9GdVuOObPE3ll9AAAI HTTP/1.1" 200 -
+2025-08-28 18:27:02,947 - INFO - 127.0.0.1 - - [28/Aug/2025 18:27:02] "GET /socket.io/?EIO=4&transport=polling&t=PZmRcCS&sid=CO9GdVuOObPE3ll9AAAI HTTP/1.1" 200 -
+2025-08-28 18:27:33,757 - INFO - 127.0.0.1 - - [28/Aug/2025 18:27:33] "GET /socket.io/?EIO=4&transport=websocket&sid=CO9GdVuOObPE3ll9AAAI HTTP/1.1" 200 -
+2025-08-28 18:27:34,788 - INFO - 127.0.0.1 - - [28/Aug/2025 18:27:34] "GET / HTTP/1.1" 200 -
+2025-08-28 18:27:34,925 - INFO - 127.0.0.1 - - [28/Aug/2025 18:27:34] "GET /socket.io/?EIO=4&transport=polling&t=PZmRk07 HTTP/1.1" 200 -
+2025-08-28 18:27:34,941 - INFO - 127.0.0.1 - - [28/Aug/2025 18:27:34] "POST /socket.io/?EIO=4&transport=polling&t=PZmRk0O&sid=tWpxEFyv7GIfyLwlAAAK HTTP/1.1" 200 -
+2025-08-28 18:27:34,944 - INFO - 127.0.0.1 - - [28/Aug/2025 18:27:34] "GET /socket.io/?EIO=4&transport=polling&t=PZmRk0Q&sid=tWpxEFyv7GIfyLwlAAAK HTTP/1.1" 200 -
+2025-08-28 18:27:34,963 - INFO - 127.0.0.1 - - [28/Aug/2025 18:27:34] "GET /socket.io/?EIO=4&transport=polling&t=PZmRk0i&sid=tWpxEFyv7GIfyLwlAAAK HTTP/1.1" 200 -
+2025-08-28 18:28:05,755 - INFO - 127.0.0.1 - - [28/Aug/2025 18:28:05] "GET /socket.io/?EIO=4&transport=websocket&sid=tWpxEFyv7GIfyLwlAAAK HTTP/1.1" 200 -
+2025-08-28 18:28:06,782 - INFO - 127.0.0.1 - - [28/Aug/2025 18:28:06] "GET / HTTP/1.1" 200 -
+2025-08-28 18:28:07,126 - INFO - 127.0.0.1 - - [28/Aug/2025 18:28:07] "GET /socket.io/?EIO=4&transport=polling&t=PZmRrtG HTTP/1.1" 200 -
+2025-08-28 18:28:07,147 - INFO - 127.0.0.1 - - [28/Aug/2025 18:28:07] "POST /socket.io/?EIO=4&transport=polling&t=PZmRrtb&sid=Fb2w7Fs0B56jUKZHAAAM HTTP/1.1" 200 -
+2025-08-28 18:28:07,156 - INFO - 127.0.0.1 - - [28/Aug/2025 18:28:07] "GET /socket.io/?EIO=4&transport=polling&t=PZmRrte&sid=Fb2w7Fs0B56jUKZHAAAM HTTP/1.1" 200 -
+2025-08-28 18:28:07,175 - INFO - 127.0.0.1 - - [28/Aug/2025 18:28:07] "GET /socket.io/?EIO=4&transport=polling&t=PZmRrt-&sid=Fb2w7Fs0B56jUKZHAAAM HTTP/1.1" 200 -
+2025-08-28 18:28:37,754 - INFO - 127.0.0.1 - - [28/Aug/2025 18:28:37] "GET /socket.io/?EIO=4&transport=websocket&sid=Fb2w7Fs0B56jUKZHAAAM HTTP/1.1" 200 -
+2025-08-28 18:28:38,790 - INFO - 127.0.0.1 - - [28/Aug/2025 18:28:38] "GET / HTTP/1.1" 200 -
+2025-08-28 18:28:38,934 - INFO - 127.0.0.1 - - [28/Aug/2025 18:28:38] "GET /socket.io/?EIO=4&transport=polling&t=PZmRzeF HTTP/1.1" 200 -
+2025-08-28 18:28:38,946 - INFO - 127.0.0.1 - - [28/Aug/2025 18:28:38] "POST /socket.io/?EIO=4&transport=polling&t=PZmRzeT&sid=TB16J9Cv3_WbLuFaAAAO HTTP/1.1" 200 -
+2025-08-28 18:28:38,952 - INFO - 127.0.0.1 - - [28/Aug/2025 18:28:38] "GET /socket.io/?EIO=4&transport=polling&t=PZmRzeV&sid=TB16J9Cv3_WbLuFaAAAO HTTP/1.1" 200 -
+2025-08-28 18:28:38,968 - INFO - 127.0.0.1 - - [28/Aug/2025 18:28:38] "GET /socket.io/?EIO=4&transport=polling&t=PZmRzeo&sid=TB16J9Cv3_WbLuFaAAAO HTTP/1.1" 200 -
+2025-08-28 18:29:09,752 - INFO - 127.0.0.1 - - [28/Aug/2025 18:29:09] "GET /socket.io/?EIO=4&transport=websocket&sid=TB16J9Cv3_WbLuFaAAAO HTTP/1.1" 200 -
+2025-08-28 18:29:10,796 - INFO - 127.0.0.1 - - [28/Aug/2025 18:29:10] "GET / HTTP/1.1" 200 -
+2025-08-28 18:29:10,901 - INFO - 127.0.0.1 - - [28/Aug/2025 18:29:10] "GET /socket.io/?EIO=4&transport=polling&t=PZmS5Ro HTTP/1.1" 200 -
+2025-08-28 18:29:10,915 - INFO - 127.0.0.1 - - [28/Aug/2025 18:29:10] "POST /socket.io/?EIO=4&transport=polling&t=PZmS5R-&sid=Ien1TQ9QSl_Vdr8KAAAQ HTTP/1.1" 200 -
+2025-08-28 18:29:10,918 - INFO - 127.0.0.1 - - [28/Aug/2025 18:29:10] "GET /socket.io/?EIO=4&transport=polling&t=PZmS5R_&sid=Ien1TQ9QSl_Vdr8KAAAQ HTTP/1.1" 200 -
+2025-08-28 18:29:10,936 - INFO - 127.0.0.1 - - [28/Aug/2025 18:29:10] "GET /socket.io/?EIO=4&transport=polling&t=PZmS5SK&sid=Ien1TQ9QSl_Vdr8KAAAQ HTTP/1.1" 200 -
+2025-08-28 18:29:41,751 - INFO - 127.0.0.1 - - [28/Aug/2025 18:29:41] "GET /socket.io/?EIO=4&transport=websocket&sid=Ien1TQ9QSl_Vdr8KAAAQ HTTP/1.1" 200 -
+2025-08-28 18:29:42,232 - INFO - High load detected - CPU: 45.1%, Memory: 83.2%
+2025-08-28 18:29:42,233 - INFO - Scaling up system resources...
+2025-08-28 18:29:42,810 - INFO - 127.0.0.1 - - [28/Aug/2025 18:29:42] "GET / HTTP/1.1" 200 -
+2025-08-28 18:29:42,920 - INFO - 127.0.0.1 - - [28/Aug/2025 18:29:42] "GET /socket.io/?EIO=4&transport=polling&t=PZmSDG2 HTTP/1.1" 200 -
+2025-08-28 18:29:42,946 - INFO - 127.0.0.1 - - [28/Aug/2025 18:29:42] "POST /socket.io/?EIO=4&transport=polling&t=PZmSDGO&sid=yrjGNP865JIyyK07AAAS HTTP/1.1" 200 -
+2025-08-28 18:29:42,952 - INFO - 127.0.0.1 - - [28/Aug/2025 18:29:42] "GET /socket.io/?EIO=4&transport=polling&t=PZmSDGT&sid=yrjGNP865JIyyK07AAAS HTTP/1.1" 200 -
+2025-08-28 18:29:42,974 - INFO - 127.0.0.1 - - [28/Aug/2025 18:29:42] "GET /socket.io/?EIO=4&transport=polling&t=PZmSDGv&sid=yrjGNP865JIyyK07AAAS HTTP/1.1" 200 -
+2025-08-28 18:30:13,759 - INFO - 127.0.0.1 - - [28/Aug/2025 18:30:13] "GET /socket.io/?EIO=4&transport=websocket&sid=yrjGNP865JIyyK07AAAS HTTP/1.1" 200 -
+2025-08-28 18:30:14,794 - INFO - 127.0.0.1 - - [28/Aug/2025 18:30:14] "GET / HTTP/1.1" 200 -
+2025-08-28 18:30:14,925 - INFO - 127.0.0.1 - - [28/Aug/2025 18:30:14] "GET /socket.io/?EIO=4&transport=polling&t=PZmSL49 HTTP/1.1" 200 -
+2025-08-28 18:30:14,938 - INFO - 127.0.0.1 - - [28/Aug/2025 18:30:14] "POST /socket.io/?EIO=4&transport=polling&t=PZmSL4L&sid=qHvYX9MN--4B5jnwAAAU HTTP/1.1" 200 -
+2025-08-28 18:30:14,941 - INFO - 127.0.0.1 - - [28/Aug/2025 18:30:14] "GET /socket.io/?EIO=4&transport=polling&t=PZmSL4M&sid=qHvYX9MN--4B5jnwAAAU HTTP/1.1" 200 -
+2025-08-28 18:30:14,960 - INFO - 127.0.0.1 - - [28/Aug/2025 18:30:14] "GET /socket.io/?EIO=4&transport=polling&t=PZmSL4h&sid=qHvYX9MN--4B5jnwAAAU HTTP/1.1" 200 -
+2025-08-28 18:30:43,243 - INFO - High load detected - CPU: 10.3%, Memory: 82.2%
+2025-08-28 18:30:43,243 - INFO - Scaling up system resources...
+2025-08-28 18:30:45,759 - INFO - 127.0.0.1 - - [28/Aug/2025 18:30:45] "GET /socket.io/?EIO=4&transport=websocket&sid=qHvYX9MN--4B5jnwAAAU HTTP/1.1" 200 -
+2025-08-28 18:30:46,805 - INFO - 127.0.0.1 - - [28/Aug/2025 18:30:46] "GET / HTTP/1.1" 200 -
+2025-08-28 18:30:46,965 - INFO - 127.0.0.1 - - [28/Aug/2025 18:30:46] "GET /socket.io/?EIO=4&transport=polling&t=PZmSSun HTTP/1.1" 200 -
+2025-08-28 18:30:46,980 - INFO - 127.0.0.1 - - [28/Aug/2025 18:30:46] "POST /socket.io/?EIO=4&transport=polling&t=PZmSSuz&sid=6I-Oyv7wPqHQgN3tAAAW HTTP/1.1" 200 -
+2025-08-28 18:30:46,989 - INFO - 127.0.0.1 - - [28/Aug/2025 18:30:46] "GET /socket.io/?EIO=4&transport=polling&t=PZmSSv0&sid=6I-Oyv7wPqHQgN3tAAAW HTTP/1.1" 200 -
+2025-08-28 18:30:47,007 - INFO - 127.0.0.1 - - [28/Aug/2025 18:30:47] "GET /socket.io/?EIO=4&transport=polling&t=PZmSSvO&sid=6I-Oyv7wPqHQgN3tAAAW HTTP/1.1" 200 -
+2025-08-28 18:31:17,760 - INFO - 127.0.0.1 - - [28/Aug/2025 18:31:17] "GET /socket.io/?EIO=4&transport=websocket&sid=6I-Oyv7wPqHQgN3tAAAW HTTP/1.1" 200 -
+2025-08-28 18:31:18,790 - INFO - 127.0.0.1 - - [28/Aug/2025 18:31:18] "GET / HTTP/1.1" 200 -
+2025-08-28 18:31:18,904 - INFO - 127.0.0.1 - - [28/Aug/2025 18:31:18] "GET /socket.io/?EIO=4&transport=polling&t=PZmSahq HTTP/1.1" 200 -
+2025-08-28 18:31:18,917 - INFO - 127.0.0.1 - - [28/Aug/2025 18:31:18] "POST /socket.io/?EIO=4&transport=polling&t=PZmSah-&sid=g1EzkbHVnbPtMjFeAAAY HTTP/1.1" 200 -
+2025-08-28 18:31:18,921 - INFO - 127.0.0.1 - - [28/Aug/2025 18:31:18] "GET /socket.io/?EIO=4&transport=polling&t=PZmSai0&sid=g1EzkbHVnbPtMjFeAAAY HTTP/1.1" 200 -
+2025-08-28 18:31:18,936 - INFO - 127.0.0.1 - - [28/Aug/2025 18:31:18] "GET /socket.io/?EIO=4&transport=polling&t=PZmSaiJ&sid=g1EzkbHVnbPtMjFeAAAY HTTP/1.1" 200 -
+2025-08-28 18:31:44,249 - INFO - High load detected - CPU: 17.2%, Memory: 82.4%
+2025-08-28 18:31:44,249 - INFO - Scaling up system resources...
+2025-08-28 18:31:49,763 - INFO - 127.0.0.1 - - [28/Aug/2025 18:31:49] "GET /socket.io/?EIO=4&transport=websocket&sid=g1EzkbHVnbPtMjFeAAAY HTTP/1.1" 200 -
+2025-08-28 18:31:50,786 - INFO - 127.0.0.1 - - [28/Aug/2025 18:31:50] "GET / HTTP/1.1" 200 -
+2025-08-28 18:31:50,934 - INFO - 127.0.0.1 - - [28/Aug/2025 18:31:50] "GET /socket.io/?EIO=4&transport=polling&t=PZmSiWF HTTP/1.1" 200 -
+2025-08-28 18:31:50,952 - INFO - 127.0.0.1 - - [28/Aug/2025 18:31:50] "POST /socket.io/?EIO=4&transport=polling&t=PZmSiWU&sid=jrP2U4Loj1t7bRXMAAAa HTTP/1.1" 200 -
+2025-08-28 18:31:50,954 - INFO - 127.0.0.1 - - [28/Aug/2025 18:31:50] "GET /socket.io/?EIO=4&transport=polling&t=PZmSiWY&sid=jrP2U4Loj1t7bRXMAAAa HTTP/1.1" 200 -
+2025-08-28 18:31:50,972 - INFO - 127.0.0.1 - - [28/Aug/2025 18:31:50] "GET /socket.io/?EIO=4&transport=polling&t=PZmSiWr&sid=jrP2U4Loj1t7bRXMAAAa HTTP/1.1" 200 -
+2025-08-28 18:32:21,760 - INFO - 127.0.0.1 - - [28/Aug/2025 18:32:21] "GET /socket.io/?EIO=4&transport=websocket&sid=jrP2U4Loj1t7bRXMAAAa HTTP/1.1" 200 -
+2025-08-28 18:32:22,781 - INFO - 127.0.0.1 - - [28/Aug/2025 18:32:22] "GET / HTTP/1.1" 200 -
+2025-08-28 18:32:22,892 - INFO - 127.0.0.1 - - [28/Aug/2025 18:32:22] "GET /socket.io/?EIO=4&transport=polling&t=PZmSqJc HTTP/1.1" 200 -
+2025-08-28 18:32:22,906 - INFO - 127.0.0.1 - - [28/Aug/2025 18:32:22] "POST /socket.io/?EIO=4&transport=polling&t=PZmSqJn&sid=TkzgPXi-RLTbRA0xAAAc HTTP/1.1" 200 -
+2025-08-28 18:32:22,911 - INFO - 127.0.0.1 - - [28/Aug/2025 18:32:22] "GET /socket.io/?EIO=4&transport=polling&t=PZmSqJq&sid=TkzgPXi-RLTbRA0xAAAc HTTP/1.1" 200 -
+2025-08-28 18:32:22,926 - INFO - 127.0.0.1 - - [28/Aug/2025 18:32:22] "GET /socket.io/?EIO=4&transport=polling&t=PZmSqK9&sid=TkzgPXi-RLTbRA0xAAAc HTTP/1.1" 200 -
+2025-08-28 18:32:45,255 - INFO - High load detected - CPU: 14.1%, Memory: 80.9%
+2025-08-28 18:32:45,256 - INFO - Scaling up system resources...
+2025-08-28 18:32:53,765 - INFO - 127.0.0.1 - - [28/Aug/2025 18:32:53] "GET /socket.io/?EIO=4&transport=websocket&sid=TkzgPXi-RLTbRA0xAAAc HTTP/1.1" 200 -
+2025-08-28 18:32:54,790 - INFO - 127.0.0.1 - - [28/Aug/2025 18:32:54] "GET / HTTP/1.1" 200 -
+2025-08-28 18:32:54,899 - INFO - 127.0.0.1 - - [28/Aug/2025 18:32:54] "GET /socket.io/?EIO=4&transport=polling&t=PZmSy7j HTTP/1.1" 200 -
+2025-08-28 18:32:54,909 - INFO - 127.0.0.1 - - [28/Aug/2025 18:32:54] "POST /socket.io/?EIO=4&transport=polling&t=PZmSy7u&sid=eIul3_RQu_Nt_cL1AAAe HTTP/1.1" 200 -
+2025-08-28 18:32:54,912 - INFO - 127.0.0.1 - - [28/Aug/2025 18:32:54] "GET /socket.io/?EIO=4&transport=polling&t=PZmSy7w&sid=eIul3_RQu_Nt_cL1AAAe HTTP/1.1" 200 -
+2025-08-28 18:32:54,926 - INFO - 127.0.0.1 - - [28/Aug/2025 18:32:54] "GET /socket.io/?EIO=4&transport=polling&t=PZmSy88&sid=eIul3_RQu_Nt_cL1AAAe HTTP/1.1" 200 -
+2025-08-28 18:33:25,760 - INFO - 127.0.0.1 - - [28/Aug/2025 18:33:25] "GET /socket.io/?EIO=4&transport=websocket&sid=eIul3_RQu_Nt_cL1AAAe HTTP/1.1" 200 -
+2025-08-28 18:33:26,779 - INFO - 127.0.0.1 - - [28/Aug/2025 18:33:26] "GET / HTTP/1.1" 200 -
+2025-08-28 18:33:26,898 - INFO - 127.0.0.1 - - [28/Aug/2025 18:33:26] "GET /socket.io/?EIO=4&transport=polling&t=PZmT3xj HTTP/1.1" 200 -
+2025-08-28 18:33:26,909 - INFO - 127.0.0.1 - - [28/Aug/2025 18:33:26] "POST /socket.io/?EIO=4&transport=polling&t=PZmT3xt&sid=td5T9gvAGItID40EAAAg HTTP/1.1" 200 -
+2025-08-28 18:33:26,912 - INFO - 127.0.0.1 - - [28/Aug/2025 18:33:26] "GET /socket.io/?EIO=4&transport=polling&t=PZmT3xv&sid=td5T9gvAGItID40EAAAg HTTP/1.1" 200 -
+2025-08-28 18:33:26,924 - INFO - 127.0.0.1 - - [28/Aug/2025 18:33:26] "GET /socket.io/?EIO=4&transport=polling&t=PZmT3y7&sid=td5T9gvAGItID40EAAAg HTTP/1.1" 200 -
+2025-08-28 18:33:46,267 - INFO - High load detected - CPU: 20.7%, Memory: 82.1%
+2025-08-28 18:33:46,268 - INFO - Scaling up system resources...
+2025-08-28 18:33:57,754 - INFO - 127.0.0.1 - - [28/Aug/2025 18:33:57] "GET /socket.io/?EIO=4&transport=websocket&sid=td5T9gvAGItID40EAAAg HTTP/1.1" 200 -
+2025-08-28 18:33:58,828 - INFO - 127.0.0.1 - - [28/Aug/2025 18:33:58] "GET / HTTP/1.1" 200 -
+2025-08-28 18:33:58,966 - INFO - 127.0.0.1 - - [28/Aug/2025 18:33:58] "GET /socket.io/?EIO=4&transport=polling&t=PZmTBmo HTTP/1.1" 200 -
+2025-08-28 18:33:58,978 - INFO - 127.0.0.1 - - [28/Aug/2025 18:33:58] "POST /socket.io/?EIO=4&transport=polling&t=PZmTBmy&sid=sA5CoI8iGYa1cp_HAAAi HTTP/1.1" 200 -
+2025-08-28 18:33:58,983 - INFO - 127.0.0.1 - - [28/Aug/2025 18:33:58] "GET /socket.io/?EIO=4&transport=polling&t=PZmTBm-&sid=sA5CoI8iGYa1cp_HAAAi HTTP/1.1" 200 -
+2025-08-28 18:33:59,001 - INFO - 127.0.0.1 - - [28/Aug/2025 18:33:59] "GET /socket.io/?EIO=4&transport=polling&t=PZmTBnH&sid=sA5CoI8iGYa1cp_HAAAi HTTP/1.1" 200 -
+2025-08-28 18:34:29,764 - INFO - 127.0.0.1 - - [28/Aug/2025 18:34:29] "GET /socket.io/?EIO=4&transport=websocket&sid=sA5CoI8iGYa1cp_HAAAi HTTP/1.1" 200 -
+2025-08-28 18:34:30,801 - INFO - 127.0.0.1 - - [28/Aug/2025 18:34:30] "GET / HTTP/1.1" 200 -
+2025-08-28 18:34:30,953 - INFO - 127.0.0.1 - - [28/Aug/2025 18:34:30] "GET /socket.io/?EIO=4&transport=polling&t=PZmTJac HTTP/1.1" 200 -
+2025-08-28 18:34:30,972 - INFO - 127.0.0.1 - - [28/Aug/2025 18:34:30] "POST /socket.io/?EIO=4&transport=polling&t=PZmTJan&sid=9vOWTMy-85cR0QklAAAk HTTP/1.1" 200 -
+2025-08-28 18:34:30,979 - INFO - 127.0.0.1 - - [28/Aug/2025 18:34:30] "GET /socket.io/?EIO=4&transport=polling&t=PZmTJaq&sid=9vOWTMy-85cR0QklAAAk HTTP/1.1" 200 -
+2025-08-28 18:34:31,005 - INFO - 127.0.0.1 - - [28/Aug/2025 18:34:31] "GET /socket.io/?EIO=4&transport=polling&t=PZmTJbO&sid=9vOWTMy-85cR0QklAAAk HTTP/1.1" 200 -
+2025-08-28 18:34:47,279 - INFO - High load detected - CPU: 18.7%, Memory: 85.1%
+2025-08-28 18:34:47,280 - INFO - Scaling up system resources...
+2025-08-28 18:35:01,751 - INFO - 127.0.0.1 - - [28/Aug/2025 18:35:01] "GET /socket.io/?EIO=4&transport=websocket&sid=9vOWTMy-85cR0QklAAAk HTTP/1.1" 200 -
+2025-08-28 18:35:02,784 - INFO - 127.0.0.1 - - [28/Aug/2025 18:35:02] "GET / HTTP/1.1" 200 -
+2025-08-28 18:35:02,896 - INFO - 127.0.0.1 - - [28/Aug/2025 18:35:02] "GET /socket.io/?EIO=4&transport=polling&t=PZmTRNi HTTP/1.1" 200 -
+2025-08-28 18:35:02,908 - INFO - 127.0.0.1 - - [28/Aug/2025 18:35:02] "POST /socket.io/?EIO=4&transport=polling&t=PZmTRNs&sid=dT2rHiVi1Q8mxQnnAAAm HTTP/1.1" 200 -
+2025-08-28 18:35:02,911 - INFO - 127.0.0.1 - - [28/Aug/2025 18:35:02] "GET /socket.io/?EIO=4&transport=polling&t=PZmTRNu&sid=dT2rHiVi1Q8mxQnnAAAm HTTP/1.1" 200 -
+2025-08-28 18:35:02,925 - INFO - 127.0.0.1 - - [28/Aug/2025 18:35:02] "GET /socket.io/?EIO=4&transport=polling&t=PZmTROA&sid=dT2rHiVi1Q8mxQnnAAAm HTTP/1.1" 200 -
+2025-08-28 18:35:33,764 - INFO - 127.0.0.1 - - [28/Aug/2025 18:35:33] "GET /socket.io/?EIO=4&transport=websocket&sid=dT2rHiVi1Q8mxQnnAAAm HTTP/1.1" 200 -
+2025-08-28 18:35:34,815 - INFO - 127.0.0.1 - - [28/Aug/2025 18:35:34] "GET / HTTP/1.1" 200 -
+2025-08-28 18:35:34,941 - INFO - 127.0.0.1 - - [28/Aug/2025 18:35:34] "GET /socket.io/?EIO=4&transport=polling&t=PZmTZCK HTTP/1.1" 200 -
+2025-08-28 18:35:34,957 - INFO - 127.0.0.1 - - [28/Aug/2025 18:35:34] "POST /socket.io/?EIO=4&transport=polling&t=PZmTZCf&sid=Lc0k4w4EX6Gx7fBQAAAo HTTP/1.1" 200 -
+2025-08-28 18:35:34,961 - INFO - 127.0.0.1 - - [28/Aug/2025 18:35:34] "GET /socket.io/?EIO=4&transport=polling&t=PZmTZCg&sid=Lc0k4w4EX6Gx7fBQAAAo HTTP/1.1" 200 -
+2025-08-28 18:35:34,976 - INFO - 127.0.0.1 - - [28/Aug/2025 18:35:34] "GET /socket.io/?EIO=4&transport=polling&t=PZmTZCz&sid=Lc0k4w4EX6Gx7fBQAAAo HTTP/1.1" 200 -
+2025-08-28 18:35:48,292 - INFO - High load detected - CPU: 36.6%, Memory: 83.7%
+2025-08-28 18:35:48,293 - INFO - Scaling up system resources...
+2025-08-28 18:36:05,763 - INFO - 127.0.0.1 - - [28/Aug/2025 18:36:05] "GET /socket.io/?EIO=4&transport=websocket&sid=Lc0k4w4EX6Gx7fBQAAAo HTTP/1.1" 200 -
+2025-08-28 18:36:06,788 - INFO - 127.0.0.1 - - [28/Aug/2025 18:36:06] "GET / HTTP/1.1" 200 -
+2025-08-28 18:36:06,885 - INFO - 127.0.0.1 - - [28/Aug/2025 18:36:06] "GET /socket.io/?EIO=4&transport=polling&t=PZmTg_X HTTP/1.1" 200 -
+2025-08-28 18:36:06,896 - INFO - 127.0.0.1 - - [28/Aug/2025 18:36:06] "POST /socket.io/?EIO=4&transport=polling&t=PZmTg_h&sid=uTEYh0vACYMTs9qFAAAq HTTP/1.1" 200 -
+2025-08-28 18:36:06,900 - INFO - 127.0.0.1 - - [28/Aug/2025 18:36:06] "GET /socket.io/?EIO=4&transport=polling&t=PZmTg_k&sid=uTEYh0vACYMTs9qFAAAq HTTP/1.1" 200 -
+2025-08-28 18:36:06,916 - INFO - 127.0.0.1 - - [28/Aug/2025 18:36:06] "GET /socket.io/?EIO=4&transport=polling&t=PZmTh00&sid=uTEYh0vACYMTs9qFAAAq HTTP/1.1" 200 -
+2025-08-28 18:36:37,760 - INFO - 127.0.0.1 - - [28/Aug/2025 18:36:37] "GET /socket.io/?EIO=4&transport=websocket&sid=uTEYh0vACYMTs9qFAAAq HTTP/1.1" 200 -
+2025-08-28 18:36:38,790 - INFO - 127.0.0.1 - - [28/Aug/2025 18:36:38] "GET / HTTP/1.1" 200 -
+2025-08-28 18:36:38,900 - INFO - 127.0.0.1 - - [28/Aug/2025 18:36:38] "GET /socket.io/?EIO=4&transport=polling&t=PZmTopl HTTP/1.1" 200 -
+2025-08-28 18:36:38,909 - INFO - 127.0.0.1 - - [28/Aug/2025 18:36:38] "POST /socket.io/?EIO=4&transport=polling&t=PZmTopv&sid=OusYSNTP5vjNwxBIAAAs HTTP/1.1" 200 -
+2025-08-28 18:36:38,914 - INFO - 127.0.0.1 - - [28/Aug/2025 18:36:38] "GET /socket.io/?EIO=4&transport=polling&t=PZmTopx&sid=OusYSNTP5vjNwxBIAAAs HTTP/1.1" 200 -
+2025-08-28 18:36:38,927 - INFO - 127.0.0.1 - - [28/Aug/2025 18:36:38] "GET /socket.io/?EIO=4&transport=polling&t=PZmToqB&sid=OusYSNTP5vjNwxBIAAAs HTTP/1.1" 200 -
+2025-08-28 18:36:49,301 - INFO - High load detected - CPU: 17.3%, Memory: 85.9%
+2025-08-28 18:36:49,302 - INFO - Scaling up system resources...
+2025-08-28 18:37:09,753 - INFO - 127.0.0.1 - - [28/Aug/2025 18:37:09] "GET /socket.io/?EIO=4&transport=websocket&sid=OusYSNTP5vjNwxBIAAAs HTTP/1.1" 200 -
+2025-08-28 18:37:10,781 - INFO - 127.0.0.1 - - [28/Aug/2025 18:37:10] "GET / HTTP/1.1" 200 -
+2025-08-28 18:37:10,989 - INFO - 127.0.0.1 - - [28/Aug/2025 18:37:10] "GET /socket.io/?EIO=4&transport=polling&t=PZmTwdT HTTP/1.1" 200 -
+2025-08-28 18:37:11,151 - INFO - 127.0.0.1 - - [28/Aug/2025 18:37:11] "POST /socket.io/?EIO=4&transport=polling&t=PZmTwgo&sid=oaqTbXiq_D2-PUnAAAAu HTTP/1.1" 200 -
+2025-08-28 18:37:11,174 - INFO - 127.0.0.1 - - [28/Aug/2025 18:37:11] "GET /socket.io/?EIO=4&transport=polling&t=PZmTwgp&sid=oaqTbXiq_D2-PUnAAAAu HTTP/1.1" 200 -
+2025-08-28 18:37:41,762 - INFO - 127.0.0.1 - - [28/Aug/2025 18:37:41] "GET /socket.io/?EIO=4&transport=websocket&sid=oaqTbXiq_D2-PUnAAAAu HTTP/1.1" 200 -
+2025-08-28 18:37:42,793 - INFO - 127.0.0.1 - - [28/Aug/2025 18:37:42] "GET / HTTP/1.1" 200 -
+2025-08-28 18:37:43,055 - INFO - 127.0.0.1 - - [28/Aug/2025 18:37:43] "GET /socket.io/?EIO=4&transport=polling&t=PZmU2UB HTTP/1.1" 200 -
+2025-08-28 18:37:43,071 - INFO - 127.0.0.1 - - [28/Aug/2025 18:37:43] "POST /socket.io/?EIO=4&transport=polling&t=PZmU2UQ&sid=KXl-FowFHxJVxu_-AAAw HTTP/1.1" 200 -
+2025-08-28 18:37:43,076 - INFO - 127.0.0.1 - - [28/Aug/2025 18:37:43] "GET /socket.io/?EIO=4&transport=polling&t=PZmU2UT&sid=KXl-FowFHxJVxu_-AAAw HTTP/1.1" 200 -
+2025-08-28 18:37:43,096 - INFO - 127.0.0.1 - - [28/Aug/2025 18:37:43] "GET /socket.io/?EIO=4&transport=polling&t=PZmU2Un&sid=KXl-FowFHxJVxu_-AAAw HTTP/1.1" 200 -
+2025-08-28 18:37:50,310 - INFO - High load detected - CPU: 21.2%, Memory: 85.9%
+2025-08-28 18:37:50,311 - INFO - Scaling up system resources...
+2025-08-28 18:38:13,758 - INFO - 127.0.0.1 - - [28/Aug/2025 18:38:13] "GET /socket.io/?EIO=4&transport=websocket&sid=KXl-FowFHxJVxu_-AAAw HTTP/1.1" 200 -
+2025-08-28 18:38:14,796 - INFO - 127.0.0.1 - - [28/Aug/2025 18:38:14] "GET / HTTP/1.1" 200 -
+2025-08-28 18:38:14,932 - INFO - 127.0.0.1 - - [28/Aug/2025 18:38:14] "GET /socket.io/?EIO=4&transport=polling&t=PZmUAGE HTTP/1.1" 200 -
+2025-08-28 18:38:14,951 - INFO - 127.0.0.1 - - [28/Aug/2025 18:38:14] "POST /socket.io/?EIO=4&transport=polling&t=PZmUAGT&sid=rHE5MV5O5HgP4PypAAAy HTTP/1.1" 200 -
+2025-08-28 18:38:14,956 - INFO - 127.0.0.1 - - [28/Aug/2025 18:38:14] "GET /socket.io/?EIO=4&transport=polling&t=PZmUAGV&sid=rHE5MV5O5HgP4PypAAAy HTTP/1.1" 200 -
+2025-08-28 18:38:14,971 - INFO - 127.0.0.1 - - [28/Aug/2025 18:38:14] "GET /socket.io/?EIO=4&transport=polling&t=PZmUAGq&sid=rHE5MV5O5HgP4PypAAAy HTTP/1.1" 200 -
+2025-08-28 18:38:45,753 - INFO - 127.0.0.1 - - [28/Aug/2025 18:38:45] "GET /socket.io/?EIO=4&transport=websocket&sid=rHE5MV5O5HgP4PypAAAy HTTP/1.1" 200 -
+2025-08-28 18:38:46,790 - INFO - 127.0.0.1 - - [28/Aug/2025 18:38:46] "GET / HTTP/1.1" 200 -
+2025-08-28 18:38:46,846 - INFO - 127.0.0.1 - - [28/Aug/2025 18:38:46] "GET /socket.io/?EIO=4&transport=polling&t=PZmUI2w HTTP/1.1" 200 -
+2025-08-28 18:38:46,864 - INFO - 127.0.0.1 - - [28/Aug/2025 18:38:46] "POST /socket.io/?EIO=4&transport=polling&t=PZmUI39&sid=VlUa-3eoDsoNBRztAAA0 HTTP/1.1" 200 -
+2025-08-28 18:38:46,868 - INFO - 127.0.0.1 - - [28/Aug/2025 18:38:46] "GET /socket.io/?EIO=4&transport=polling&t=PZmUI3A&sid=VlUa-3eoDsoNBRztAAA0 HTTP/1.1" 200 -
+2025-08-28 18:38:51,320 - INFO - High load detected - CPU: 12.2%, Memory: 85.3%
+2025-08-28 18:38:51,321 - INFO - Scaling up system resources...
+2025-08-28 18:39:17,759 - INFO - 127.0.0.1 - - [28/Aug/2025 18:39:17] "GET /socket.io/?EIO=4&transport=websocket&sid=VlUa-3eoDsoNBRztAAA0 HTTP/1.1" 200 -
+2025-08-28 18:39:18,783 - INFO - 127.0.0.1 - - [28/Aug/2025 18:39:18] "GET / HTTP/1.1" 200 -
+2025-08-28 18:39:18,941 - INFO - 127.0.0.1 - - [28/Aug/2025 18:39:18] "GET /socket.io/?EIO=4&transport=polling&t=PZmUPuL HTTP/1.1" 200 -
+2025-08-28 18:39:18,993 - INFO - 127.0.0.1 - - [28/Aug/2025 18:39:18] "POST /socket.io/?EIO=4&transport=polling&t=PZmUPvD&sid=1N0m98wfD9Y5UXi2AAA2 HTTP/1.1" 200 -
+2025-08-28 18:39:18,999 - INFO - 127.0.0.1 - - [28/Aug/2025 18:39:18] "GET /socket.io/?EIO=4&transport=polling&t=PZmUPvG&sid=1N0m98wfD9Y5UXi2AAA2 HTTP/1.1" 200 -
+2025-08-28 18:39:19,013 - INFO - 127.0.0.1 - - [28/Aug/2025 18:39:19] "GET /socket.io/?EIO=4&transport=polling&t=PZmUPvV&sid=1N0m98wfD9Y5UXi2AAA2 HTTP/1.1" 200 -
+2025-08-28 18:39:49,759 - INFO - 127.0.0.1 - - [28/Aug/2025 18:39:49] "GET /socket.io/?EIO=4&transport=websocket&sid=1N0m98wfD9Y5UXi2AAA2 HTTP/1.1" 200 -
+2025-08-28 18:39:50,793 - INFO - 127.0.0.1 - - [28/Aug/2025 18:39:50] "GET / HTTP/1.1" 200 -
+2025-08-28 18:39:50,959 - INFO - 127.0.0.1 - - [28/Aug/2025 18:39:50] "GET /socket.io/?EIO=4&transport=polling&t=PZmUXig HTTP/1.1" 200 -
+2025-08-28 18:39:50,974 - INFO - 127.0.0.1 - - [28/Aug/2025 18:39:50] "POST /socket.io/?EIO=4&transport=polling&t=PZmUXir&sid=fvWU7cJYpZqBX2ZEAAA4 HTTP/1.1" 200 -
+2025-08-28 18:39:50,977 - INFO - 127.0.0.1 - - [28/Aug/2025 18:39:50] "GET /socket.io/?EIO=4&transport=polling&t=PZmUXis&sid=fvWU7cJYpZqBX2ZEAAA4 HTTP/1.1" 200 -
+2025-08-28 18:39:50,990 - INFO - 127.0.0.1 - - [28/Aug/2025 18:39:50] "GET /socket.io/?EIO=4&transport=polling&t=PZmUXj9&sid=fvWU7cJYpZqBX2ZEAAA4 HTTP/1.1" 200 -
+2025-08-28 18:39:52,004 - INFO - Received signal 2
+2025-08-28 18:39:52,004 - INFO - Shutting down C2 Server...
+2025-08-28 18:39:52,005 - INFO - Shutting down C2 Server...
+2025-08-28 18:48:59,022 - INFO - Database initialized successfully
+2025-08-28 18:48:59,028 - INFO - Auto-recovery system started
+2025-08-28 18:48:59,029 - INFO - Auto-scaling system started
+2025-08-28 18:48:59,029 - INFO - C2 Server (Auto System) starting...
+2025-08-28 18:48:59,029 - INFO - Listening on 0.0.0.0:5000
+2025-08-28 18:48:59,029 - INFO - Auto-recovery: ENABLED
+2025-08-28 18:48:59,029 - INFO - Auto-scaling: ENABLED
+2025-08-28 18:48:59,029 - INFO - Auto-monitoring: ENABLED
+2025-08-28 18:48:59,080 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.5:5000
+2025-08-28 18:48:59,080 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-28 18:49:14,716 - INFO - Received signal 2
+2025-08-28 18:49:14,717 - INFO - Shutting down C2 Server...
+2025-08-28 18:49:14,717 - INFO - Shutting down C2 Server...
+2025-08-28 18:50:51,437 - INFO - Database initialized successfully
+2025-08-28 18:50:51,444 - INFO - Auto-recovery system started
+2025-08-28 18:50:51,446 - INFO - Auto-scaling system started
+2025-08-28 18:50:51,446 - INFO - C2 Server (Auto System) starting...
+2025-08-28 18:50:51,446 - INFO - Listening on 0.0.0.0:5000
+2025-08-28 18:50:51,446 - INFO - Auto-recovery: ENABLED
+2025-08-28 18:50:51,446 - INFO - Auto-scaling: ENABLED
+2025-08-28 18:50:51,446 - INFO - Auto-monitoring: ENABLED
+2025-08-28 18:50:51,464 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.5:5000
+2025-08-28 18:50:51,464 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-28 18:50:52,451 - INFO - High load detected - CPU: 15.7%, Memory: 80.9%
+2025-08-28 18:50:52,452 - INFO - Scaling up system resources...
+2025-08-28 18:51:20,455 - INFO - 127.0.0.1 - - [28/Aug/2025 18:51:20] "GET /api/bots HTTP/1.1" 200 -
+2025-08-28 18:51:20,570 - INFO - 127.0.0.1 - - [28/Aug/2025 18:51:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-28 18:51:24,970 - INFO - 127.0.0.1 - - [28/Aug/2025 18:51:24] "GET / HTTP/1.1" 200 -
+2025-08-28 18:51:25,222 - INFO - 127.0.0.1 - - [28/Aug/2025 18:51:25] "GET /socket.io/?EIO=4&transport=polling&t=PZmXBCY HTTP/1.1" 200 -
+2025-08-28 18:51:25,543 - INFO - 127.0.0.1 - - [28/Aug/2025 18:51:25] "POST /socket.io/?EIO=4&transport=polling&t=PZmXBCh&sid=h0wjDyP-zWwbMji3AAAA HTTP/1.1" 200 -
+2025-08-28 18:51:25,546 - INFO - 127.0.0.1 - - [28/Aug/2025 18:51:25] "GET /socket.io/?EIO=4&transport=polling&t=PZmXBCj&sid=h0wjDyP-zWwbMji3AAAA HTTP/1.1" 200 -
+2025-08-28 18:51:53,466 - INFO - High load detected - CPU: 12.9%, Memory: 81.6%
+2025-08-28 18:51:53,466 - INFO - Scaling up system resources...
+2025-08-28 18:51:55,226 - INFO - 127.0.0.1 - - [28/Aug/2025 18:51:55] "GET /socket.io/?EIO=4&transport=websocket&sid=h0wjDyP-zWwbMji3AAAA HTTP/1.1" 200 -
+2025-08-28 18:51:56,266 - INFO - 127.0.0.1 - - [28/Aug/2025 18:51:56] "GET / HTTP/1.1" 200 -
+2025-08-28 18:51:56,330 - INFO - 127.0.0.1 - - [28/Aug/2025 18:51:56] "GET /socket.io/?EIO=4&transport=polling&t=PZmXIob HTTP/1.1" 200 -
+2025-08-28 18:51:56,641 - INFO - 127.0.0.1 - - [28/Aug/2025 18:51:56] "POST /socket.io/?EIO=4&transport=polling&t=PZmXIol&sid=50Rci3QJKAUTuLSlAAAC HTTP/1.1" 200 -
+2025-08-28 18:51:56,646 - INFO - 127.0.0.1 - - [28/Aug/2025 18:51:56] "GET /socket.io/?EIO=4&transport=polling&t=PZmXIom&sid=50Rci3QJKAUTuLSlAAAC HTTP/1.1" 200 -
+2025-08-28 18:52:12,313 - INFO - 127.0.0.1 - - [28/Aug/2025 18:52:12] "GET /socket.io/?EIO=4&transport=websocket&sid=50Rci3QJKAUTuLSlAAAC HTTP/1.1" 200 -
+2025-08-28 18:52:13,342 - INFO - 127.0.0.1 - - [28/Aug/2025 18:52:13] "GET / HTTP/1.1" 200 -
+2025-08-28 18:52:13,483 - INFO - 127.0.0.1 - - [28/Aug/2025 18:52:13] "GET /socket.io/?EIO=4&transport=polling&t=PZmXM-R HTTP/1.1" 200 -
+2025-08-28 18:52:13,818 - INFO - 127.0.0.1 - - [28/Aug/2025 18:52:13] "POST /socket.io/?EIO=4&transport=polling&t=PZmXM_2&sid=HqWa_8pM-muMScDMAAAE HTTP/1.1" 200 -
+2025-08-28 18:52:13,823 - INFO - 127.0.0.1 - - [28/Aug/2025 18:52:13] "GET /socket.io/?EIO=4&transport=polling&t=PZmXM_3&sid=HqWa_8pM-muMScDMAAAE HTTP/1.1" 200 -
+2025-08-28 18:52:43,757 - INFO - 127.0.0.1 - - [28/Aug/2025 18:52:43] "GET /socket.io/?EIO=4&transport=websocket&sid=HqWa_8pM-muMScDMAAAE HTTP/1.1" 200 -
+2025-08-28 18:52:44,789 - INFO - 127.0.0.1 - - [28/Aug/2025 18:52:44] "GET / HTTP/1.1" 200 -
+2025-08-28 18:52:44,900 - INFO - 127.0.0.1 - - [28/Aug/2025 18:52:44] "GET /socket.io/?EIO=4&transport=polling&t=PZmXUfW HTTP/1.1" 200 -
+2025-08-28 18:52:45,227 - INFO - 127.0.0.1 - - [28/Aug/2025 18:52:45] "POST /socket.io/?EIO=4&transport=polling&t=PZmXUfj&sid=xTjnZ93YVvXTuy4lAAAG HTTP/1.1" 200 -
+2025-08-28 18:52:45,229 - INFO - 127.0.0.1 - - [28/Aug/2025 18:52:45] "GET /socket.io/?EIO=4&transport=polling&t=PZmXUfk&sid=xTjnZ93YVvXTuy4lAAAG HTTP/1.1" 200 -
+2025-08-28 18:52:52,696 - INFO - 127.0.0.1 - - [28/Aug/2025 18:52:52] "GET /socket.io/?EIO=4&transport=websocket&sid=xTjnZ93YVvXTuy4lAAAG HTTP/1.1" 200 -
+2025-08-28 18:52:54,476 - INFO - High load detected - CPU: 18.4%, Memory: 82.0%
+2025-08-28 18:52:54,476 - INFO - Scaling up system resources...
+2025-08-28 18:53:53,575 - INFO - 127.0.0.1 - - [28/Aug/2025 18:53:53] "GET / HTTP/1.1" 200 -
+2025-08-28 18:53:57,195 - INFO - 127.0.0.1 - - [28/Aug/2025 18:53:57] "GET /socket.io/?EIO=4&transport=polling&t=PZmXmJ7 HTTP/1.1" 200 -
+2025-08-28 18:53:57,240 - INFO - 127.0.0.1 - - [28/Aug/2025 18:53:57] "POST /socket.io/?EIO=4&transport=polling&t=PZmXmJs&sid=12YgjtL2t-WLszVwAAAI HTTP/1.1" 200 -
+2025-08-28 18:53:57,557 - INFO - 127.0.0.1 - - [28/Aug/2025 18:53:57] "GET /socket.io/?EIO=4&transport=polling&t=PZmXmJt&sid=12YgjtL2t-WLszVwAAAI HTTP/1.1" 200 -
+2025-08-28 18:54:04,189 - INFO - Received signal 2
+2025-08-28 18:54:04,631 - INFO - Shutting down C2 Server...
+2025-08-28 18:54:04,632 - INFO - Shutting down C2 Server...
+2025-08-28 18:54:44,889 - INFO - Database initialized successfully
+2025-08-28 18:54:44,895 - INFO - Auto-recovery system started
+2025-08-28 18:54:44,896 - INFO - Auto-scaling system started
+2025-08-28 18:54:44,896 - INFO - C2 Server (Auto System) starting...
+2025-08-28 18:54:44,896 - INFO - Listening on 0.0.0.0:5000
+2025-08-28 18:54:44,896 - INFO - Auto-recovery: ENABLED
+2025-08-28 18:54:44,896 - INFO - Auto-scaling: ENABLED
+2025-08-28 18:54:44,896 - INFO - Auto-monitoring: ENABLED
+2025-08-28 18:54:44,914 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.5:5000
+2025-08-28 18:54:44,914 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-28 18:54:49,367 - INFO - 127.0.0.1 - - [28/Aug/2025 18:54:49] "GET / HTTP/1.1" 200 -
+2025-08-28 18:54:49,471 - INFO - 127.0.0.1 - - [28/Aug/2025 18:54:49] "GET /socket.io/?EIO=4&transport=polling&t=PZmXz3y HTTP/1.1" 200 -
+2025-08-28 18:54:49,512 - INFO - 127.0.0.1 - - [28/Aug/2025 18:54:49] "POST /socket.io/?EIO=4&transport=polling&t=PZmXz4a&sid=zsqeyks5BLmdAKhmAAAA HTTP/1.1" 200 -
+2025-08-28 18:54:49,821 - INFO - 127.0.0.1 - - [28/Aug/2025 18:54:49] "GET /socket.io/?EIO=4&transport=polling&t=PZmXz4a.0&sid=zsqeyks5BLmdAKhmAAAA HTTP/1.1" 200 -
+2025-08-28 18:55:06,804 - INFO - 127.0.0.1 - - [28/Aug/2025 18:55:06] "GET /api/bots HTTP/1.1" 200 -
+2025-08-28 18:55:19,749 - INFO - 127.0.0.1 - - [28/Aug/2025 18:55:19] "GET /socket.io/?EIO=4&transport=websocket&sid=zsqeyks5BLmdAKhmAAAA HTTP/1.1" 200 -
+2025-08-28 18:55:21,078 - INFO - 127.0.0.1 - - [28/Aug/2025 18:55:21] "GET / HTTP/1.1" 200 -
+2025-08-28 18:55:21,201 - INFO - 127.0.0.1 - - [28/Aug/2025 18:55:21] "GET /socket.io/?EIO=4&transport=polling&t=PZmY4pi HTTP/1.1" 200 -
+2025-08-28 18:55:21,215 - INFO - 127.0.0.1 - - [28/Aug/2025 18:55:21] "POST /socket.io/?EIO=4&transport=polling&t=PZmY4pu&sid=7sB53yj6yp-jy6ffAAAC HTTP/1.1" 200 -
+2025-08-28 18:55:21,527 - INFO - 127.0.0.1 - - [28/Aug/2025 18:55:21] "GET /socket.io/?EIO=4&transport=polling&t=PZmY4pw&sid=7sB53yj6yp-jy6ffAAAC HTTP/1.1" 200 -
+2025-08-28 18:55:21,847 - INFO - 127.0.0.1 - - [28/Aug/2025 18:55:21] "GET /socket.io/?EIO=4&transport=polling&t=PZmY4ux&sid=7sB53yj6yp-jy6ffAAAC HTTP/1.1" 200 -
+2025-08-28 18:55:45,447 - INFO - 127.0.0.1 - - [28/Aug/2025 18:55:45] "GET /socket.io/?EIO=4&transport=websocket&sid=7sB53yj6yp-jy6ffAAAC HTTP/1.1" 200 -
+2025-08-28 18:55:46,916 - INFO - High load detected - CPU: 15.2%, Memory: 81.6%
+2025-08-28 18:55:46,916 - INFO - Scaling up system resources...
+2025-08-28 18:55:56,679 - INFO - 127.0.0.1 - - [28/Aug/2025 18:55:56] "GET / HTTP/1.1" 200 -
+2025-08-28 18:55:56,721 - INFO - 127.0.0.1 - - [28/Aug/2025 18:55:56] "GET /socket.io/?EIO=4&transport=polling&t=PZmYDUj HTTP/1.1" 200 -
+2025-08-28 18:55:57,056 - INFO - 127.0.0.1 - - [28/Aug/2025 18:55:57] "POST /socket.io/?EIO=4&transport=polling&t=PZmYDU_&sid=_8n5pKIvhEnG5rurAAAE HTTP/1.1" 200 -
+2025-08-28 18:55:57,059 - INFO - 127.0.0.1 - - [28/Aug/2025 18:55:57] "GET /socket.io/?EIO=4&transport=polling&t=PZmYDU_.0&sid=_8n5pKIvhEnG5rurAAAE HTTP/1.1" 200 -
+2025-08-28 18:55:58,375 - INFO - 127.0.0.1 - - [28/Aug/2025 18:55:58] "GET /socket.io/?EIO=4&transport=websocket&sid=_8n5pKIvhEnG5rurAAAE HTTP/1.1" 200 -
+2025-08-28 18:56:47,929 - INFO - High load detected - CPU: 15.1%, Memory: 80.8%
+2025-08-28 18:56:47,930 - INFO - Scaling up system resources...
+2025-08-28 18:57:48,938 - INFO - High load detected - CPU: 14.2%, Memory: 81.2%
+2025-08-28 18:57:48,939 - INFO - Scaling up system resources...
+2025-08-28 18:58:49,951 - INFO - High load detected - CPU: 19.2%, Memory: 80.5%
+2025-08-28 18:58:49,951 - INFO - Scaling up system resources...
+2025-08-28 18:59:23,683 - INFO - Received signal 2
+2025-08-28 18:59:23,684 - INFO - Shutting down C2 Server...
+2025-08-28 18:59:23,688 - INFO - Shutting down C2 Server...
+2025-08-28 19:57:54,782 - INFO - Database initialized successfully
+2025-08-28 19:57:54,791 - INFO - Auto-recovery system started
+2025-08-28 19:57:54,792 - INFO - Auto-scaling system started
+2025-08-28 19:57:54,792 - INFO - C2 Server (Auto System) starting...
+2025-08-28 19:57:54,792 - INFO - Listening on 0.0.0.0:5000
+2025-08-28 19:57:54,792 - INFO - Auto-recovery: ENABLED
+2025-08-28 19:57:54,792 - INFO - Auto-scaling: ENABLED
+2025-08-28 19:57:54,792 - INFO - Auto-monitoring: ENABLED
+2025-08-28 19:57:54,811 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.5:5000
+2025-08-28 19:57:54,811 - INFO - [33mPress CTRL+C to quit[0m
