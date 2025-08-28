@@ -1,0 +1,59 @@
+2025-08-28 12:42:06,001 - INFO - Auto Bot Worker initialized: AutoBot-cute
+2025-08-28 12:42:06,001 - INFO - Bot ID: d3eefb78-8ec0-4c84-827b-d7750299ac88
+2025-08-28 12:42:06,002 - INFO - C2 Server: http://localhost:5000
+2025-08-28 12:42:06,002 - INFO - Platform: Windows 11
+2025-08-28 12:42:06,002 - INFO - Auto-recovery: ENABLED
+2025-08-28 12:42:06,002 - INFO - Auto-reconnect: ENABLED
+2025-08-28 12:42:06,002 - INFO - Auto-retry: ENABLED
+2025-08-28 12:42:06,003 - INFO - Starting Auto Bot Worker...
+2025-08-28 12:42:08,083 - INFO - Successfully registered with C2 server
+2025-08-28 12:42:08,086 - INFO - Auto Bot Worker started successfully
+2025-08-28 12:42:08,087 - INFO - Bot ID: d3eefb78-8ec0-4c84-827b-d7750299ac88
+2025-08-28 12:42:08,087 - INFO - Connected to: http://localhost:5000
+2025-08-28 12:42:08,087 - INFO - Bot worker is running. Press Ctrl+C to stop.
+2025-08-28 12:42:36,709 - INFO - Received signal 2
+2025-08-28 12:42:36,709 - INFO - Stopping Auto Bot Worker...
+2025-08-28 12:42:41,724 - INFO - Received signal 2
+2025-08-28 12:42:43,755 - INFO - Cleanup completed
+2025-08-28 12:42:45,831 - INFO - Cleanup completed
+2025-08-28 12:46:29,772 - INFO - Auto Bot Worker initialized: AutoBot-cute
+2025-08-28 12:46:29,772 - INFO - Bot ID: 5c9f21ba-ec10-43dc-a115-0c5874c24181
+2025-08-28 12:46:29,773 - INFO - C2 Server: http://localhost:5000
+2025-08-28 12:46:29,773 - INFO - Platform: Windows 11
+2025-08-28 12:46:29,773 - INFO - Auto-recovery: ENABLED
+2025-08-28 12:46:29,773 - INFO - Auto-reconnect: ENABLED
+2025-08-28 12:46:29,773 - INFO - Auto-retry: ENABLED
+2025-08-28 12:46:29,773 - INFO - Starting Auto Bot Worker...
+2025-08-28 12:46:31,869 - INFO - Successfully registered with C2 server
+2025-08-28 12:46:31,873 - INFO - Auto Bot Worker started successfully
+2025-08-28 12:46:31,873 - INFO - Bot ID: 5c9f21ba-ec10-43dc-a115-0c5874c24181
+2025-08-28 12:46:31,873 - INFO - Connected to: http://localhost:5000
+2025-08-28 12:46:31,873 - INFO - Bot worker is running. Press Ctrl+C to stop.
+2025-08-28 12:46:39,686 - INFO - Auto Bot Worker initialized: AutoBot-cute
+2025-08-28 12:46:39,686 - INFO - Bot ID: c0adfbe3-4693-4719-a085-40290870288b
+2025-08-28 12:46:39,686 - INFO - C2 Server: http://192.168.1.5:5000
+2025-08-28 12:46:39,686 - INFO - Platform: Windows 11
+2025-08-28 12:46:39,686 - INFO - Auto-recovery: ENABLED
+2025-08-28 12:46:39,686 - INFO - Auto-reconnect: ENABLED
+2025-08-28 12:46:39,686 - INFO - Auto-retry: ENABLED
+2025-08-28 12:46:39,686 - INFO - Starting Auto Bot Worker...
+2025-08-28 12:46:39,731 - INFO - Successfully registered with C2 server
+2025-08-28 12:46:39,735 - INFO - Auto Bot Worker started successfully
+2025-08-28 12:46:39,735 - INFO - Bot ID: c0adfbe3-4693-4719-a085-40290870288b
+2025-08-28 12:46:39,735 - INFO - Connected to: http://192.168.1.5:5000
+2025-08-28 12:46:39,735 - INFO - Bot worker is running. Press Ctrl+C to stop.
+2025-08-28 12:47:50,692 - INFO - Auto Bot Worker initialized: AutoBot-cute
+2025-08-28 12:47:50,692 - INFO - Bot ID: 8b025cb5-d552-40ca-bf9e-25361307f121
+2025-08-28 12:47:50,692 - INFO - C2 Server: http://192.168.1.5:5000
+2025-08-28 12:47:50,692 - INFO - Platform: Windows 11
+2025-08-28 12:47:50,692 - INFO - Auto-recovery: ENABLED
+2025-08-28 12:47:50,692 - INFO - Auto-reconnect: ENABLED
+2025-08-28 12:47:50,692 - INFO - Auto-retry: ENABLED
+2025-08-28 12:47:50,692 - INFO - Starting Auto Bot Worker...
+2025-08-28 12:47:50,732 - INFO - Successfully registered with C2 server
+2025-08-28 12:47:50,739 - INFO - Auto Bot Worker started successfully
+2025-08-28 12:47:50,741 - INFO - Bot ID: 8b025cb5-d552-40ca-bf9e-25361307f121
+2025-08-28 12:47:50,742 - INFO - Connected to: http://192.168.1.5:5000
+2025-08-28 12:47:50,743 - INFO - Bot worker is running. Press Ctrl+C to stop.
+2025-08-28 12:50:56,965 - INFO - Received signal 2
+2025-08-28 12:50:56,965 - INFO - Stopping Auto Bot Worker...
